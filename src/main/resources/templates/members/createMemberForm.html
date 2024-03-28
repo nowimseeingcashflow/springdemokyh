@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.com">
+    <body>
+        <div class="container">
+            <form action="/members/new" method="post">
+                <!-- 여기서 post 방식으로 넘어감.
+                그래서 postMapping으로 다룰 수가 있음 -->
+                <div class="form-group">
+                    <label for="name">이름</label>
+                    <input type="text" id="id" name="name" placeholder="이름을 입력하세용">
+                </div>
+                <button type="submit">등록</button>
+            </form>
+        </div>
+    </body>
+</html>
